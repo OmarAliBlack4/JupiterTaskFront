@@ -1,3 +1,9 @@
+# To access the dashboard, you must log in as an admin !!
+
+# Account : admin@jupiter.com
+
+# Password : AdminPassword123!
+
 # JupiterTaskFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
