@@ -1,0 +1,11 @@
+    <app-navbar></app-navbar>
+    <div class="container">
+    <h1>Category Scores</h1>
+    <p>Category ID: {{ categoryId }}</p>
+
+    <ul class="list-group">
+        <li style=" border: 2px solid; padding: 20px; margin: 20px; font-weight: bold;" class="list-group-item" *ngFor="let score of scores">
+        Name: {{ score.teamName }},    Score: {{ score.scores }}
+        </li>
+    </ul>
+    </div>

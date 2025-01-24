@@ -1,0 +1,16 @@
+    <app-navbar></app-navbar>
+
+    <div class="container ">
+    <div class="row">
+        <div class=" col-md-4" *ngFor="let category of categories">
+        <div style="height: 500px; text-align: center; margin: 20px;" class="card ">
+            <div style="display: flex; align-items: center ; justify-content: space-between; flex-direction: column; padding: 20px;" class="card-body">
+            <h5 class="card-title">{{ category.name }}</h5>
+            <p class="card-text">{{ category.description }}</p>
+            <img style="display: block;" [src]="category.imageUrl" alt="image" />
+            <a [routerLink]="['/category', category.id]" class="btn btn-primary">View Scores</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
